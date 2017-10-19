@@ -1,0 +1,6 @@
+framework module Pods_OptimoveSDKApplication {
+  umbrella header "Pods-OptimoveSDKApplication-umbrella.h"
+
+  export *
+  module * { export * }
+}
