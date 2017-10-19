@@ -17,9 +17,11 @@
 		1446471543925E3A79F36906BCCB5C9F /* PiwikUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74D03C5365F90E3B743B25483D8DBC /* PiwikUserDefaults.swift */; };
 		144DE5EBFFC3A8C6F09F469BC33353CE /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C5653A4EF9D2F26C0BA27C806EED4B /* Device.swift */; };
 		1A46935B929A21A387C23F351CCD0E81 /* Protobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B4F7CF1B222F36980E5389F01367C5 /* Protobuf-dummy.m */; };
+		1AD0B25FDBE4F77B239D3D22D4AB4538 /* Pods-OptimoveSDKApplication-OptimoveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74581450E1F918F1A385C33F220F38D4 /* Pods-OptimoveSDKApplication-OptimoveSDK-dummy.m */; };
+		1D26511D4D1FE4D361940519909DC7B3 /* Pods-OptimoveSDKApplication-OptimoveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E24782439A267096EBF3A479A525C82 /* Pods-OptimoveSDKApplication-OptimoveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22205A2E3FA4FD20EC1DF8E409317376 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C2EEE46773F1B7BD7BE17BD0B3ACF /* Visitor.swift */; };
 		2391D2369076699B05D387243673642B /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A717E50C6F34F3CE867319283EECCD /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2990FD425C3177BEDBA4CE3AF7EFFF7D /* Pods-OptimoveSDKApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 367DA1AD726A460D2D5CD2F2FACE7B68 /* Pods-OptimoveSDKApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2990FD425C3177BEDBA4CE3AF7EFFF7D /* Pods-OptimoveSDKApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E58BF62F1678B4D930DFE9B32794F427 /* Pods-OptimoveSDKApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CAE97CA7C72A0DAE6885917BCB3AB2 /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE7A52E49DF37D3EC11B417C910DA55 /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D4725A9392782B4427F1F5CE14D83A70 /* SourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		31CAF04ED5F44F2A8FD1AF156165B618 /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C5BF59C80C21DDFA27450E12B494D1 /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +32,7 @@
 		392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = A789081FD1280C5A0E07A9FC4C1E9A1C /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		399FB8668DA1D6155E90084377291BF8 /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 573B64BAC2A2E09CFC286BFA74C2C11A /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 983C3CE10DC6A9DD5CC8844CF79BB2F5 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		3B215965F20A7577A2A37BE93813FBA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3B3699D83A0CBAE2190D25137C8B13C7 /* PiwikTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D24D99A247936BF4DD0A622328CEACA /* PiwikTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CE935F823F86F3CEBE4C1DF524CFCFF /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B303BE7FD530D9C0471D74EED75242F1 /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3E3B4CF239527A39CD308EBA9676FD8F /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FDF40A01882C54968BA2DA427B10EC /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -106,7 +109,7 @@
 		F3E026D7F91CD3443DB5CF0612ADCA8C /* Type.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB677D540781047C0977BB7C849C3A3 /* Type.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F69516FCE255B267920A15E9835558A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F6EE853E8730E2229E40FB618C482C49 /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C94AAA655C05D2BFFA90AAEE612A98 /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7EAF36F021BF4C8928F688221D61C46 /* Pods-OptimoveSDKApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A3ACD4AE181A686F72AAEE7F8191FA /* Pods-OptimoveSDKApplication-dummy.m */; };
+		F7EAF36F021BF4C8928F688221D61C46 /* Pods-OptimoveSDKApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4816D22AA0B2ED0709BB9DE284C7D14 /* Pods-OptimoveSDKApplication-dummy.m */; };
 		F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11200D2495D9B8E9DC8ED072BA5AAA5C /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD3361606DC68C718A34446CDD04D835 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4F5D9E9F16918F9AAEC3F49D224E68 /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE16CB32D0C01F953DA1CB59AA090FB0 /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 290B376FBC67F1671C8A818E9CF01DD5 /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -119,6 +122,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = E4DD95323C54A78F879DAB0F1508B8E7;
 			remoteInfo = nanopb;
+		};
+		105757F22EB86C6DAC79CFD0F1B0687E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B80060FE8C664DF08841000F41D515;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		1CDC4904E36856514B391565FA64089A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B415454022862E28BDE95104923AF9;
+			remoteInfo = PiwikTracker;
 		};
 		30379F757B0532A9D927280AEF826C3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -133,6 +150,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = C5B80060FE8C664DF08841000F41D515;
 			remoteInfo = GoogleToolboxForMac;
+		};
+		6EFD68E8A910D4971BCB05DA6E3F410B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85006B2994114B4A68AFE7A4AD630D4A;
+			remoteInfo = Protobuf;
+		};
+		9E4EDDC1518FF86180652AC470A37360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4DD95323C54A78F879DAB0F1508B8E7;
+			remoteInfo = nanopb;
 		};
 		CBE4E821077B8E3A2D2942D15396F558 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -158,38 +189,40 @@
 		1734A4D730776C64FB6B140BD2117412 /* Duration.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Duration.pbobjc.h; path = objectivec/google/protobuf/Duration.pbobjc.h; sourceTree = "<group>"; };
 		1BA26FF4B81D455C5B4A56D78B8763DE /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
 		1C4F5D9E9F16918F9AAEC3F49D224E68 /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
+		1E24782439A267096EBF3A479A525C82 /* Pods-OptimoveSDKApplication-OptimoveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OptimoveSDKApplication-OptimoveSDK-umbrella.h"; sourceTree = "<group>"; };
 		1E742C6A99EEB73E717EC2173DB9639A /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWellKnownTypes.m; path = objectivec/GPBWellKnownTypes.m; sourceTree = "<group>"; };
+		201EF6A3D61585D6DCA791A86A50665D /* Pods-OptimoveSDKApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OptimoveSDKApplication-acknowledgements.plist"; sourceTree = "<group>"; };
 		20873AD483B6EE1D9D619580C88B23F1 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		2108FB56EDE77515739D3D6D49F87743 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2284FC6495B7196BAC562F928816932F /* Pods-OptimoveSDKApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OptimoveSDKApplication-acknowledgements.plist"; sourceTree = "<group>"; };
 		231355B1B71C14C9CEE612B034617659 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		263E0A9BFB26292438334C5C4D9CB0C0 /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = objectivec/GPBArray.m; sourceTree = "<group>"; };
 		26EF1D1D12454A2BF1070DB6775AC0FF /* Type.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Type.pbobjc.m; path = objectivec/google/protobuf/Type.pbobjc.m; sourceTree = "<group>"; };
+		2791A74EEC8B37670D54A2E5C1F93C15 /* PiwikTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PiwikTracker.framework; path = PiwikTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		290B376FBC67F1671C8A818E9CF01DD5 /* GPBExtensionInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionInternals.h; path = objectivec/GPBExtensionInternals.h; sourceTree = "<group>"; };
 		2AEED7E904AC1DE2D1E44069988FCFB6 /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = PiwikTracker/Application.swift; sourceTree = "<group>"; };
-		2B5259C25A81FC058DB24110D777A07C /* Pods-OptimoveSDKApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimoveSDKApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		2CB677D540781047C0977BB7C849C3A3 /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
 		2CD45751CE613E0DE6858E21FCEFD3B9 /* GPBArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray.h; path = objectivec/GPBArray.h; sourceTree = "<group>"; };
-		2D5373EECCD4E7FC45CA8A28D53CCB28 /* Pods-OptimoveSDKApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OptimoveSDKApplication.modulemap"; sourceTree = "<group>"; };
+		2DC86C210B596F27245043781C6ADA2B /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6AAB5C4CB6054FDF4AA52AF46C7FAB /* Protobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-prefix.pch"; sourceTree = "<group>"; };
 		315DE3E7259481E361179DFC68193D77 /* GPBRootObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBRootObject.m; path = objectivec/GPBRootObject.m; sourceTree = "<group>"; };
 		32EA5D9E6D03780C40A80F1A29D47C7A /* GPBRootObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject.h; path = objectivec/GPBRootObject.h; sourceTree = "<group>"; };
 		342A1DDEB901AB0CF658AF65E278F3E1 /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage_PackagePrivate.h; path = objectivec/GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
 		34F749AB2EE86D82C99A256A35A69D9C /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = objectivec/GPBProtocolBuffers.h; sourceTree = "<group>"; };
 		35C5653A4EF9D2F26C0BA27C806EED4B /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = PiwikTracker/Device.swift; sourceTree = "<group>"; };
-		367DA1AD726A460D2D5CD2F2FACE7B68 /* Pods-OptimoveSDKApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OptimoveSDKApplication-umbrella.h"; sourceTree = "<group>"; };
 		36FF6E7087A634730F26E5DA20397E15 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Wrappers.pbobjc.h; path = objectivec/google/protobuf/Wrappers.pbobjc.h; sourceTree = "<group>"; };
 		39D359DBD99F09C9828453625FBEBA65 /* PiwikTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PiwikTracker-dummy.m"; sourceTree = "<group>"; };
 		3A19F7908EAF00546577C15BC912F57B /* Duration.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Duration.pbobjc.m; path = objectivec/google/protobuf/Duration.pbobjc.m; sourceTree = "<group>"; };
 		3A2A861728493426FFEB9DAC68FD390E /* GPBWireFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWireFormat.m; path = objectivec/GPBWireFormat.m; sourceTree = "<group>"; };
+		3A55DA8224C6C60FC7D72B573C2A62EE /* Pods-OptimoveSDKApplication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OptimoveSDKApplication-frameworks.sh"; sourceTree = "<group>"; };
 		3F52FADD699E48F11F9C6BB065AB20D0 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		4045A8B3E93CF7A767B367D8427A3FAA /* GPBCodedInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream.h; path = objectivec/GPBCodedInputStream.h; sourceTree = "<group>"; };
 		40F25C6416777591919A5C768F0AA853 /* MemoryQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryQueue.swift; path = PiwikTracker/MemoryQueue.swift; sourceTree = "<group>"; };
 		42FDF40A01882C54968BA2DA427B10EC /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		432FF8E37C8895E7867651FEE63D9165 /* Pods-OptimoveSDKApplication-OptimoveSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimoveSDKApplication-OptimoveSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		4497373E8D45BCE5E8123F9830693CA7 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
 		44E3B0F622502318A2F45070D5D5B972 /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldMask.pbobjc.h; path = objectivec/google/protobuf/FieldMask.pbobjc.h; sourceTree = "<group>"; };
 		4A21A7C501BF3A63777A6DC002058F99 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
 		4A23BA1FB0E926DE8EA2F1A3912F863C /* Empty.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.pbobjc.m; path = objectivec/google/protobuf/Empty.pbobjc.m; sourceTree = "<group>"; };
+		4AA20EC6F2D596FF37785E9BB286FDDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B6D891EDBCD43C4D77D51DD5E57AE66 /* Dispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dispatcher.swift; path = PiwikTracker/Dispatcher.swift; sourceTree = "<group>"; };
 		531D7B3E6A40622A4EE00B4E711BFC9A /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = nanopb.modulemap; sourceTree = "<group>"; };
 		5348ABF0388ABB92664047FB32AEE271 /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet.h; path = objectivec/GPBUnknownFieldSet.h; sourceTree = "<group>"; };
@@ -197,6 +230,7 @@
 		55E0528F041B461B7A9470F84C79A528 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = objectivec/GPBCodedOutputStream.h; sourceTree = "<group>"; };
 		573B64BAC2A2E09CFC286BFA74C2C11A /* GPBUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUtilities.m; path = objectivec/GPBUtilities.m; sourceTree = "<group>"; };
 		57B3FBF2ED2F63220D7EC0B8A7B858BF /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		5EB4C6DE46E3B8AB5D351521422CFF68 /* Pods-OptimoveSDKApplication-OptimoveSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OptimoveSDKApplication-OptimoveSDK.modulemap"; sourceTree = "<group>"; };
 		60D9BEB57A9E1667FA9C91F90803E904 /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = objectivec/GPBUtilities.h; sourceTree = "<group>"; };
 		61529452E88CBD82964F9608A2EC85E1 /* Locale+HttpAcceptLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Locale+HttpAcceptLanguage.swift"; path = "PiwikTracker/Locale+HttpAcceptLanguage.swift"; sourceTree = "<group>"; };
 		61F680E9ECF8B9B63BAABF3DBCCC39F1 /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Wrappers.pbobjc.m; path = objectivec/google/protobuf/Wrappers.pbobjc.m; sourceTree = "<group>"; };
@@ -204,23 +238,26 @@
 		62C0BA2347FBABF3DB3B1B10DEE7D4D4 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66EF5C74AA0DCB16B942DB07478A74BF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		67422A9AA5B4AA6F022B3F979D324C32 /* Pods-OptimoveSDKApplication-OptimoveSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimoveSDKApplication-OptimoveSDK.release.xcconfig"; sourceTree = "<group>"; };
 		68AE379C1FFD0D29C6EFB266EE34E180 /* Timestamp.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Timestamp.pbobjc.m; path = objectivec/google/protobuf/Timestamp.pbobjc.m; sourceTree = "<group>"; };
 		6D24D99A247936BF4DD0A622328CEACA /* PiwikTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PiwikTracker-umbrella.h"; sourceTree = "<group>"; };
 		6FA8B4FD7E638BC98B86DAC9A9607B02 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
 		709C0B550F1C8F6F1C38EDEDF815B6E1 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		71AD536D50B5348152B68F95AAC29299 /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray_PackagePrivate.h; path = objectivec/GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
+		71C43C34F4EE8B0F171915361EF0ACC8 /* Pods-OptimoveSDKApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OptimoveSDKApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
 		720F8FEDE418C230E9DFFAA9E6606B16 /* PiwikTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PiwikTracker.modulemap; sourceTree = "<group>"; };
 		72F272C3C19565695D4614BA2A60AE61 /* Api.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Api.pbobjc.m; path = objectivec/google/protobuf/Api.pbobjc.m; sourceTree = "<group>"; };
 		7347089D003F8FC611B9EF3525353B92 /* Struct.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Struct.pbobjc.m; path = objectivec/google/protobuf/Struct.pbobjc.m; sourceTree = "<group>"; };
+		74581450E1F918F1A385C33F220F38D4 /* Pods-OptimoveSDKApplication-OptimoveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OptimoveSDKApplication-OptimoveSDK-dummy.m"; sourceTree = "<group>"; };
 		755674587589DFCEA20A48D7AEF83D4F /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		759592EDFD0ACA1127EE5E6CB78C9FE0 /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Timestamp.pbobjc.h; path = objectivec/google/protobuf/Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		76084EF9B0838A8AF7E8A828F11B800B /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Protobuf.framework; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C2EEE46773F1B7BD7BE17BD0B3ACF /* Visitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitor.swift; path = PiwikTracker/Visitor.swift; sourceTree = "<group>"; };
 		78C5BF59C80C21DDFA27450E12B494D1 /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor_PackagePrivate.h; path = objectivec/GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
 		78F22D26455830A3B5CF390DD4885D90 /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField_PackagePrivate.h; path = objectivec/GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
 		7B2C955AABE273498582EE65E55A2DB0 /* GPBUnknownField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField.h; path = objectivec/GPBUnknownField.h; sourceTree = "<group>"; };
 		82B4F7CF1B222F36980E5389F01367C5 /* Protobuf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Protobuf-dummy.m"; sourceTree = "<group>"; };
 		85507B47EA8199A1AD7348F2713842DB /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SourceContext.pbobjc.h; path = objectivec/google/protobuf/SourceContext.pbobjc.h; sourceTree = "<group>"; };
-		86194A79B5CA2C51E7C1CF137A24EEDC /* Pods-OptimoveSDKApplication-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OptimoveSDKApplication-resources.sh"; sourceTree = "<group>"; };
 		87CC28EE2D46BB214334E0B95AB4D1D7 /* Protobuf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Protobuf.modulemap; sourceTree = "<group>"; };
 		880374852DBA5BE2FEA6803B338DA7E8 /* Protobuf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-umbrella.h"; sourceTree = "<group>"; };
 		8918C3C2B2FB43E2F163CA176751E069 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -229,15 +266,15 @@
 		8FFDA81DB74553F24EFDDE9A06A5794F /* Struct.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.pbobjc.h; path = objectivec/google/protobuf/Struct.pbobjc.h; sourceTree = "<group>"; };
 		91CAE97CA7C72A0DAE6885917BCB3AB2 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94A3ACD4AE181A686F72AAEE7F8191FA /* Pods-OptimoveSDKApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OptimoveSDKApplication-dummy.m"; sourceTree = "<group>"; };
+		950D0DA5DF8B671F79D8E9DED33004E4 /* Pods-OptimoveSDKApplication-OptimoveSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OptimoveSDKApplication-OptimoveSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		954B8039C94AF5BEAFC937824E370661 /* PiwikTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PiwikTracker.xcconfig; sourceTree = "<group>"; };
-		962FEEF8D8E78171FAFDC9D933E8A089 /* Pods-OptimoveSDKApplication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OptimoveSDKApplication-frameworks.sh"; sourceTree = "<group>"; };
 		979CCFFF08EB184760195CFACBFB3E5C /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
 		983C3CE10DC6A9DD5CC8844CF79BB2F5 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
-		9A76831A5C5C2648CF8A69A76B12EBD9 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A805BD3BEAE0007AB72894242E63DBC /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
 		9DA6312E6CAE3736B95F8402A67CD7FE /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
-		A3B973D871893D783239B0EF32DA0E80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C870AD72807856D2C04257D885B8F2 /* Pods_OptimoveSDKApplication_OptimoveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OptimoveSDKApplication_OptimoveSDK.framework; path = "Pods-OptimoveSDKApplication-OptimoveSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4484FF60A3AF011BE8CDD9C0C56F9A9 /* Pods-OptimoveSDKApplication-OptimoveSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OptimoveSDKApplication-OptimoveSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		A58E3A3B2AD7FA9CD7CC7D962AE7EFF9 /* Pods-OptimoveSDKApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimoveSDKApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		A6434D3C23F998F32D842EA72B289FCF /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = objectivec/GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
 		A68286B7E9A7369254E43C3EA62750A3 /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers_RuntimeSupport.h; path = objectivec/GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
 		A71447102919CAC77D96291C6CC37231 /* GPBCodedInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedInputStream.m; path = objectivec/GPBCodedInputStream.m; sourceTree = "<group>"; };
@@ -248,16 +285,17 @@
 		AA9F80C41F31F50301AB923F32A8D546 /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.pbobjc.h; path = objectivec/google/protobuf/Api.pbobjc.h; sourceTree = "<group>"; };
 		AAAD5ED19D2B3AB723448B9A4C6B29C1 /* GPBWireFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWireFormat.h; path = objectivec/GPBWireFormat.h; sourceTree = "<group>"; };
 		AB123D3CFF339DE7A42B9421C64F990D /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWellKnownTypes.h; path = objectivec/GPBWellKnownTypes.h; sourceTree = "<group>"; };
-		AC38769EBE0D64EC607123F73347F539 /* PiwikTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PiwikTracker.framework; path = PiwikTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE0CE2B5A339D7C8D1714355AE9E87A /* GPBExtensionInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = objectivec/GPBExtensionInternals.m; sourceTree = "<group>"; };
-		AEDF97BEBB42F0E94C9457F34DC55ABE /* Pods-OptimoveSDKApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimoveSDKApplication.release.xcconfig"; sourceTree = "<group>"; };
 		AF74D03C5365F90E3B743B25483D8DBC /* PiwikUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PiwikUserDefaults.swift; path = PiwikTracker/PiwikUserDefaults.swift; sourceTree = "<group>"; };
 		B303BE7FD530D9C0471D74EED75242F1 /* GPBMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBMessage.m; path = objectivec/GPBMessage.m; sourceTree = "<group>"; };
 		B4AB56864F36DFA48995FD5B2A767A22 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		B55823C628798E4C12B6AB05605CD01A /* FirebaseDynamicLinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDynamicLinks.framework; path = Frameworks/FirebaseDynamicLinks.framework; sourceTree = "<group>"; };
+		B84217CC7254E6DAF709BDA55E6402EF /* Pods_OptimoveSDKApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OptimoveSDKApplication.framework; path = "Pods-OptimoveSDKApplication.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E1C22861A31464B2EC1CC5F211EF97 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject_PackagePrivate.h; path = objectivec/GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		BA547B407DA9A39A767667C0CED4A70F /* Pods-OptimoveSDKApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimoveSDKApplication.release.xcconfig"; sourceTree = "<group>"; };
 		BAD488D6F7C2A86C84CEB56D2D6406F7 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
 		BCD891E333D6B6ED3DDE115D4FF8F0DF /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = PiwikTracker/Event.swift; sourceTree = "<group>"; };
+		C0DED1C36F525A89D17502CF645AE041 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29A5DA17C8C308D5F2F13E7BAF00E31 /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities_PackagePrivate.h; path = objectivec/GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
 		C3D0AEF8F426493F823A32A054D0FDEA /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = PiwikTracker/Queue.swift; sourceTree = "<group>"; };
 		C6A717E50C6F34F3CE867319283EECCD /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRuntimeTypes.h; path = objectivec/GPBRuntimeTypes.h; sourceTree = "<group>"; };
@@ -267,18 +305,21 @@
 		D4725A9392782B4427F1F5CE14D83A70 /* SourceContext.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SourceContext.pbobjc.m; path = objectivec/google/protobuf/SourceContext.pbobjc.m; sourceTree = "<group>"; };
 		D576378633F2C4D85229AF1D342786BD /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		DA35058947FDF0110160EA3DFA2A9F55 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		DA55636001A13588A8E9FF00F830161E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7454D21AD9C979129638C919563561 /* Pods-OptimoveSDKApplication-OptimoveSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OptimoveSDKApplication-OptimoveSDK-resources.sh"; sourceTree = "<group>"; };
 		E0DAF9847CC6CEE546001FA3C247486B /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
 		E17B96E6708C10FDE07A9953EDD187EE /* Empty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Empty.pbobjc.h; path = objectivec/google/protobuf/Empty.pbobjc.h; sourceTree = "<group>"; };
 		E1F7E31BFF2B1FFCE95813FABBBE6B40 /* URLSessionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDispatcher.swift; path = PiwikTracker/URLSessionDispatcher.swift; sourceTree = "<group>"; };
 		E37DAA0DE73D06D823808FFCC131DA21 /* CustomDimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDimension.swift; path = PiwikTracker/CustomDimension.swift; sourceTree = "<group>"; };
 		E44432FF1A1493311D7D8D1ADDB023EB /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary_PackagePrivate.h; path = objectivec/GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
+		E4816D22AA0B2ED0709BB9DE284C7D14 /* Pods-OptimoveSDKApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OptimoveSDKApplication-dummy.m"; sourceTree = "<group>"; };
+		E58BF62F1678B4D930DFE9B32794F427 /* Pods-OptimoveSDKApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OptimoveSDKApplication-umbrella.h"; sourceTree = "<group>"; };
 		E67BF15696E0C19666ED81F1948CD6CD /* GPBDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor.h; path = objectivec/GPBDescriptor.h; sourceTree = "<group>"; };
-		E8016741C841BAE8AAB16F7593C2CE24 /* Pods-OptimoveSDKApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OptimoveSDKApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E9529B44178DEC9E1E6B8396D1500A35 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = PiwikTracker/Logger.swift; sourceTree = "<group>"; };
-		E9DE5D0342A636A058B9140F018DA479 /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Protobuf.framework; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA96DC43E7A5812055E427199E0DD699 /* Pods_OptimoveSDKApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OptimoveSDKApplication.framework; path = "Pods-OptimoveSDKApplication.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DFECBA8F99E5114CC4E0DE2951AD8E /* Pods-OptimoveSDKApplication-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OptimoveSDKApplication-resources.sh"; sourceTree = "<group>"; };
 		F1FFEE15378E88F225B9A00F4121481D /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = PiwikTracker/Session.swift; sourceTree = "<group>"; };
 		F217FCA53D3BC59FB1908D3635C8D747 /* FieldMask.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FieldMask.pbobjc.m; path = objectivec/google/protobuf/FieldMask.pbobjc.m; sourceTree = "<group>"; };
+		F549012D26E14378BB8EF7E4207C677C /* Pods-OptimoveSDKApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OptimoveSDKApplication.modulemap"; sourceTree = "<group>"; };
 		F829906E4A304E0913DF1E7FCA7BDB0C /* GTMLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMLogger.m; path = Foundation/GTMLogger.m; sourceTree = "<group>"; };
 		FD5C7EBDF16C101C72CFB7E77D6C0164 /* Any.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Any.pbobjc.h; path = objectivec/google/protobuf/Any.pbobjc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -321,6 +362,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				554FEFCBC7B4F81FA40B1CBE88760112 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA5F63AA8F3A861A2EBDE5F64829115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B215965F20A7577A2A37BE93813FBA6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,18 +416,6 @@
 			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		20E878918CFF95AF78D8B2372815F932 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2108FB56EDE77515739D3D6D49F87743 /* GoogleToolboxForMac.framework */,
-				9A76831A5C5C2648CF8A69A76B12EBD9 /* nanopb.framework */,
-				AC38769EBE0D64EC607123F73347F539 /* PiwikTracker.framework */,
-				EA96DC43E7A5812055E427199E0DD699 /* Pods_OptimoveSDKApplication.framework */,
-				E9DE5D0342A636A058B9140F018DA479 /* Protobuf.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		29ABAFA8CB3AFCEC333C43777A00B275 /* FirebaseMessaging */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +423,19 @@
 			);
 			name = FirebaseMessaging;
 			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		2C914A187F984B11D78086BD52B8C4ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DC86C210B596F27245043781C6ADA2B /* GoogleToolboxForMac.framework */,
+				C0DED1C36F525A89D17502CF645AE041 /* nanopb.framework */,
+				2791A74EEC8B37670D54A2E5C1F93C15 /* PiwikTracker.framework */,
+				B84217CC7254E6DAF709BDA55E6402EF /* Pods_OptimoveSDKApplication.framework */,
+				A3C870AD72807856D2C04257D885B8F2 /* Pods_OptimoveSDKApplication_OptimoveSDK.framework */,
+				76084EF9B0838A8AF7E8A828F11B800B /* Protobuf.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		36B2D1616625DA730DE3FEE1AF1283D5 /* PiwikTracker */ = {
@@ -447,22 +497,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7939C632F9AB49A3C00E402D33CB6B99 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE29EDF750FAA488F45575A216FF71B9 /* Pods-OptimoveSDKApplication */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				0683223824ED81A0DC511A03B1EF9747 /* Pods */,
-				20E878918CFF95AF78D8B2372815F932 /* Products */,
-				7939C632F9AB49A3C00E402D33CB6B99 /* Targets Support Files */,
+				2C914A187F984B11D78086BD52B8C4ED /* Products */,
+				A291D1777758DFD10AA6936F91B7AF52 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -472,6 +514,15 @@
 				D576378633F2C4D85229AF1D342786BD /* Firebase.h */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		A291D1777758DFD10AA6936F91B7AF52 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD88A9436CA6C16ED9E9F300C74F0A86 /* Pods-OptimoveSDKApplication */,
+				F2A1C54052ED063FA4D4434C55013142 /* Pods-OptimoveSDKApplication-OptimoveSDK */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		A32B88775CD7D3658B889D6AE0FA9E23 /* FirebaseDynamicLinks */ = {
@@ -488,24 +539,6 @@
 			children = (
 			);
 			name = encode;
-			sourceTree = "<group>";
-		};
-		AE29EDF750FAA488F45575A216FF71B9 /* Pods-OptimoveSDKApplication */ = {
-			isa = PBXGroup;
-			children = (
-				A3B973D871893D783239B0EF32DA0E80 /* Info.plist */,
-				2D5373EECCD4E7FC45CA8A28D53CCB28 /* Pods-OptimoveSDKApplication.modulemap */,
-				E8016741C841BAE8AAB16F7593C2CE24 /* Pods-OptimoveSDKApplication-acknowledgements.markdown */,
-				2284FC6495B7196BAC562F928816932F /* Pods-OptimoveSDKApplication-acknowledgements.plist */,
-				94A3ACD4AE181A686F72AAEE7F8191FA /* Pods-OptimoveSDKApplication-dummy.m */,
-				962FEEF8D8E78171FAFDC9D933E8A089 /* Pods-OptimoveSDKApplication-frameworks.sh */,
-				86194A79B5CA2C51E7C1CF137A24EEDC /* Pods-OptimoveSDKApplication-resources.sh */,
-				367DA1AD726A460D2D5CD2F2FACE7B68 /* Pods-OptimoveSDKApplication-umbrella.h */,
-				2B5259C25A81FC058DB24110D777A07C /* Pods-OptimoveSDKApplication.debug.xcconfig */,
-				AEDF97BEBB42F0E94C9457F34DC55ABE /* Pods-OptimoveSDKApplication.release.xcconfig */,
-			);
-			name = "Pods-OptimoveSDKApplication";
-			path = "Target Support Files/Pods-OptimoveSDKApplication";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -594,6 +627,24 @@
 			);
 			name = Protobuf;
 			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		CD88A9436CA6C16ED9E9F300C74F0A86 /* Pods-OptimoveSDKApplication */ = {
+			isa = PBXGroup;
+			children = (
+				DA55636001A13588A8E9FF00F830161E /* Info.plist */,
+				F549012D26E14378BB8EF7E4207C677C /* Pods-OptimoveSDKApplication.modulemap */,
+				71C43C34F4EE8B0F171915361EF0ACC8 /* Pods-OptimoveSDKApplication-acknowledgements.markdown */,
+				201EF6A3D61585D6DCA791A86A50665D /* Pods-OptimoveSDKApplication-acknowledgements.plist */,
+				E4816D22AA0B2ED0709BB9DE284C7D14 /* Pods-OptimoveSDKApplication-dummy.m */,
+				3A55DA8224C6C60FC7D72B573C2A62EE /* Pods-OptimoveSDKApplication-frameworks.sh */,
+				E9DFECBA8F99E5114CC4E0DE2951AD8E /* Pods-OptimoveSDKApplication-resources.sh */,
+				E58BF62F1678B4D930DFE9B32794F427 /* Pods-OptimoveSDKApplication-umbrella.h */,
+				A58E3A3B2AD7FA9CD7CC7D962AE7EFF9 /* Pods-OptimoveSDKApplication.debug.xcconfig */,
+				BA547B407DA9A39A767667C0CED4A70F /* Pods-OptimoveSDKApplication.release.xcconfig */,
+			);
+			name = "Pods-OptimoveSDKApplication";
+			path = "Target Support Files/Pods-OptimoveSDKApplication";
 			sourceTree = "<group>";
 		};
 		D0690B9A72158B659B3E987841F1B6D0 /* Logger */ = {
@@ -733,6 +784,23 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		F2A1C54052ED063FA4D4434C55013142 /* Pods-OptimoveSDKApplication-OptimoveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4AA20EC6F2D596FF37785E9BB286FDDE /* Info.plist */,
+				5EB4C6DE46E3B8AB5D351521422CFF68 /* Pods-OptimoveSDKApplication-OptimoveSDK.modulemap */,
+				950D0DA5DF8B671F79D8E9DED33004E4 /* Pods-OptimoveSDKApplication-OptimoveSDK-acknowledgements.markdown */,
+				A4484FF60A3AF011BE8CDD9C0C56F9A9 /* Pods-OptimoveSDKApplication-OptimoveSDK-acknowledgements.plist */,
+				74581450E1F918F1A385C33F220F38D4 /* Pods-OptimoveSDKApplication-OptimoveSDK-dummy.m */,
+				DA7454D21AD9C979129638C919563561 /* Pods-OptimoveSDKApplication-OptimoveSDK-resources.sh */,
+				1E24782439A267096EBF3A479A525C82 /* Pods-OptimoveSDKApplication-OptimoveSDK-umbrella.h */,
+				432FF8E37C8895E7867651FEE63D9165 /* Pods-OptimoveSDKApplication-OptimoveSDK.debug.xcconfig */,
+				67422A9AA5B4AA6F022B3F979D324C32 /* Pods-OptimoveSDKApplication-OptimoveSDK.release.xcconfig */,
+			);
+			name = "Pods-OptimoveSDKApplication-OptimoveSDK";
+			path = "Target Support Files/Pods-OptimoveSDKApplication-OptimoveSDK";
+			sourceTree = "<group>";
+		};
 		F55F2479599D7B64052592498CC6D1B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -829,6 +897,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DADCE75641F00C4B3244ED21787BDA65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D26511D4D1FE4D361940519909DC7B3 /* Pods-OptimoveSDKApplication-OptimoveSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -846,7 +922,7 @@
 			);
 			name = PiwikTracker;
 			productName = PiwikTracker;
-			productReference = AC38769EBE0D64EC607123F73347F539 /* PiwikTracker.framework */;
+			productReference = 2791A74EEC8B37670D54A2E5C1F93C15 /* PiwikTracker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		19885D67EF1C6F398835549A744F23B5 /* Pods-OptimoveSDKApplication */ = {
@@ -867,7 +943,7 @@
 			);
 			name = "Pods-OptimoveSDKApplication";
 			productName = "Pods-OptimoveSDKApplication";
-			productReference = EA96DC43E7A5812055E427199E0DD699 /* Pods_OptimoveSDKApplication.framework */;
+			productReference = B84217CC7254E6DAF709BDA55E6402EF /* Pods_OptimoveSDKApplication.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		85006B2994114B4A68AFE7A4AD630D4A /* Protobuf */ = {
@@ -884,7 +960,28 @@
 			);
 			name = Protobuf;
 			productName = Protobuf;
-			productReference = E9DE5D0342A636A058B9140F018DA479 /* Protobuf.framework */;
+			productReference = 76084EF9B0838A8AF7E8A828F11B800B /* Protobuf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87EC3F927C18F992BD6930D87917DB9A /* Pods-OptimoveSDKApplication-OptimoveSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B4D40D6152E825D976F290202F8835 /* Build configuration list for PBXNativeTarget "Pods-OptimoveSDKApplication-OptimoveSDK" */;
+			buildPhases = (
+				590C207943806AAEADBDD9E4B2E72950 /* Sources */,
+				FCA5F63AA8F3A861A2EBDE5F64829115 /* Frameworks */,
+				DADCE75641F00C4B3244ED21787BDA65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AB8DA313EC771A0DE812529DB0CE43 /* PBXTargetDependency */,
+				4AFB3B1A2684D3317DD4ACD7FD7593C5 /* PBXTargetDependency */,
+				968BC529CE7AA8F90DCAF466810E654F /* PBXTargetDependency */,
+				23A25768A75FAE07744B02B8531A33FC /* PBXTargetDependency */,
+			);
+			name = "Pods-OptimoveSDKApplication-OptimoveSDK";
+			productName = "Pods-OptimoveSDKApplication-OptimoveSDK";
+			productReference = A3C870AD72807856D2C04257D885B8F2 /* Pods_OptimoveSDKApplication_OptimoveSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C5B80060FE8C664DF08841000F41D515 /* GoogleToolboxForMac */ = {
@@ -901,7 +998,7 @@
 			);
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
-			productReference = 2108FB56EDE77515739D3D6D49F87743 /* GoogleToolboxForMac.framework */;
+			productReference = 2DC86C210B596F27245043781C6ADA2B /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */ = {
@@ -918,7 +1015,7 @@
 			);
 			name = nanopb;
 			productName = nanopb;
-			productReference = 9A76831A5C5C2648CF8A69A76B12EBD9 /* nanopb.framework */;
+			productReference = C0DED1C36F525A89D17502CF645AE041 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -938,7 +1035,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 20E878918CFF95AF78D8B2372815F932 /* Products */;
+			productRefGroup = 2C914A187F984B11D78086BD52B8C4ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -946,6 +1043,7 @@
 				E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */,
 				00B415454022862E28BDE95104923AF9 /* PiwikTracker */,
 				19885D67EF1C6F398835549A744F23B5 /* Pods-OptimoveSDKApplication */,
+				87EC3F927C18F992BD6930D87917DB9A /* Pods-OptimoveSDKApplication-OptimoveSDK */,
 				85006B2994114B4A68AFE7A4AD630D4A /* Protobuf */,
 			);
 		};
@@ -990,6 +1088,14 @@
 				3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */,
 				54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */,
 				55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590C207943806AAEADBDD9E4B2E72950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD0B25FDBE4F77B239D3D22D4AB4538 /* Pods-OptimoveSDKApplication-OptimoveSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1038,6 +1144,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		23A25768A75FAE07744B02B8531A33FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */;
+			targetProxy = 9E4EDDC1518FF86180652AC470A37360 /* PBXContainerItemProxy */;
+		};
+		31AB8DA313EC771A0DE812529DB0CE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = C5B80060FE8C664DF08841000F41D515 /* GoogleToolboxForMac */;
+			targetProxy = 105757F22EB86C6DAC79CFD0F1B0687E /* PBXContainerItemProxy */;
+		};
+		4AFB3B1A2684D3317DD4ACD7FD7593C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PiwikTracker;
+			target = 00B415454022862E28BDE95104923AF9 /* PiwikTracker */;
+			targetProxy = 1CDC4904E36856514B391565FA64089A /* PBXContainerItemProxy */;
+		};
 		569402CA010281BB292199F4F9BF785E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = nanopb;
@@ -1055,6 +1179,12 @@
 			name = GoogleToolboxForMac;
 			target = C5B80060FE8C664DF08841000F41D515 /* GoogleToolboxForMac */;
 			targetProxy = 4D68A7B202854E49DB5F737825E2EDCB /* PBXContainerItemProxy */;
+		};
+		968BC529CE7AA8F90DCAF466810E654F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Protobuf;
+			target = 85006B2994114B4A68AFE7A4AD630D4A /* Protobuf */;
+			targetProxy = 6EFD68E8A910D4971BCB05DA6E3F410B /* PBXContainerItemProxy */;
 		};
 		DF2B6618AA0035B112D17F0A0FEA18A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1128,7 +1258,7 @@
 		};
 		253518C0723C3F25012EEB628C0A7516 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B5259C25A81FC058DB24110D777A07C /* Pods-OptimoveSDKApplication.debug.xcconfig */;
+			baseConfigurationReference = A58E3A3B2AD7FA9CD7CC7D962AE7EFF9 /* Pods-OptimoveSDKApplication.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1220,6 +1350,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5772F06404C7EA68C65C5D731B964B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432FF8E37C8895E7867651FEE63D9165 /* Pods-OptimoveSDKApplication-OptimoveSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OptimoveSDKApplication-OptimoveSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OptimoveSDKApplication-OptimoveSDK/Pods-OptimoveSDKApplication-OptimoveSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OptimoveSDKApplication_OptimoveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1366,6 +1530,40 @@
 			};
 			name = Debug;
 		};
+		A010785417F978C0E2C157DC9E267745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67422A9AA5B4AA6F022B3F979D324C32 /* Pods-OptimoveSDKApplication-OptimoveSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OptimoveSDKApplication-OptimoveSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OptimoveSDKApplication-OptimoveSDK/Pods-OptimoveSDKApplication-OptimoveSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OptimoveSDKApplication_OptimoveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D4CAC981FFD45F051576231C9FD4B02D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 954B8039C94AF5BEAFC937824E370661 /* PiwikTracker.xcconfig */;
@@ -1462,7 +1660,7 @@
 		};
 		F7EF1EAC89EFF09E9913E76337D7ADCA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEDF97BEBB42F0E94C9457F34DC55ABE /* Pods-OptimoveSDKApplication.release.xcconfig */;
+			baseConfigurationReference = BA547B407DA9A39A767667C0CED4A70F /* Pods-OptimoveSDKApplication.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1511,6 +1709,15 @@
 			buildConfigurations = (
 				D4CAC981FFD45F051576231C9FD4B02D /* Debug */,
 				E9B5DEC882B765103B703FF6914F9560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B4D40D6152E825D976F290202F8835 /* Build configuration list for PBXNativeTarget "Pods-OptimoveSDKApplication-OptimoveSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772F06404C7EA68C65C5D731B964B4A /* Debug */,
+				A010785417F978C0E2C157DC9E267745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

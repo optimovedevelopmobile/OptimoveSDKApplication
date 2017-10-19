@@ -9,8 +9,8 @@ pod 'Firebase/Messaging'
 pod 'Firebase/DynamicLinks'
 pod 'PiwikTracker'
 
-
-  
-  # Pods for OptimoveSDKApplication
+  target 'OptimoveSDK' do
+    use_frameworks!
+  end
 
 end
