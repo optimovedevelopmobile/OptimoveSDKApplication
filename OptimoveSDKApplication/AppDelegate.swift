@@ -1,5 +1,4 @@
 import UIKit
-import Firebase
 import OptimoveSDK
 
 @UIApplicationMain
@@ -33,6 +32,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, OptimoveStateDelegate {
     
     func didBecomeInvalid(withErrors errors: [OptimoveError]) {
         print("Optimove SDK is now FAILED!!!\n with errors: \(errors)")
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        
+        print("Did receive remote notification")
+        Optimove.sharedInstance.handleRemoteNotificationArrived(userInfo: userInfo, fetchCompletionHandler: completionHandler)
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
+        print("Did register for remote notification")
+        Optimove.sharedInstance.application(didRegisterForRemoteNotificationsWithDeviceToken: deviceToken)
     }
 }
 
